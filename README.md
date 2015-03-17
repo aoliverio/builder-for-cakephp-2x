@@ -1,1 +1,1 @@
-# Builder is a plugin for CakePHP 2.x application
+# Builder for CakePHP 2.x
