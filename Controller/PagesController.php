@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Description ...
+ * PagesController is static content controller.
+ * Load view from /Builder/View/Pages/
  * 
  * Licensed under The MIT License
  * Redistributions of files must retain the below copyright notice.

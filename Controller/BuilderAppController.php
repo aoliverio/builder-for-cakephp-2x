@@ -43,6 +43,8 @@ class BuilderAppController extends Controller {
 
     /**
      * Autoload Components
+     * 
+     * @var type 
      */
     public $components = array(
         'Scaffold' => array(
@@ -126,16 +128,6 @@ class BuilderAppController extends Controller {
             $this->authenticate();
         }
 
-
-        /**
-         * 
-         * 
-          if ($this->action != 'login') {
-          $this->authenticate();
-          }
-         * 
-         * 
-         */
         /**
          * IMPORTANT: If the request is ajax
          */
@@ -176,9 +168,6 @@ class BuilderAppController extends Controller {
 
         /**
          * Create DynamicController
-         */
-        /**
-         * 
          */
         parent::beforeFilter();
 

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description ...
+ * ScaffoldComponent is a new concept of scaffold redefined in the Builder plugin
  * 
  * Licensed under The MIT License
  * Redistributions of files must retain the below copyright notice.
@@ -21,9 +21,6 @@ App::uses('Component', 'Controller');
  * number of pages for each of your Models. These pages have data forms that work,
  * and afford the web developer an early look at the data, and the possibility to over-ride
  * scaffolded actions with custom-made ones.
- *
- * @package Cake.Controller
- * @deprecated Dynamic scaffolding will be removed and replaced in 3.0
  */
 class ScaffoldComponent extends Component {
 

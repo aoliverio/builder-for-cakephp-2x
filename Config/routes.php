@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description ...
+ * The routes file for Builder plugin
  * 
  * Licensed under The MIT License
  * Redistributions of files must retain the below copyright notice.
