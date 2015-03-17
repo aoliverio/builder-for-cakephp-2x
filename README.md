@@ -1,1 +1,1 @@
-# Builder for CakePHP 2.x
+# Builder plugin for CakePHP 2.x
