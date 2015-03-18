@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Builder PLUGIN</title>
+        <title>aoBuilder for CakePHP application</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -29,15 +29,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo $this->Html->url('/builder'); ?>"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Builder</a>
+                    <a class="navbar-brand" href="<?php echo $this->Html->url('/builder'); ?>"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> aoBuilder</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="<?php echo $this->Html->url('/builder/pages/model'); ?>">Model</a></li>
-                        <li><a href="<?php echo $this->Html->url('/builder/pages/view'); ?>">View</a></li>
-                        <li><a href="<?php echo $this->Html->url('/builder/pages/controller'); ?>">Controller</a></li>
-                        <li><a href="<?php echo $this->Html->url('/builder/pages/setting'); ?>">Setting</a></li>
+                        <li><a href="<?php echo $this->Html->url('/builder/pages/objects'); ?>">Objects</a></li>
+                        <li><a href="<?php echo $this->Html->url('/builder/pages/scaffolds'); ?>">Scaffolds</a></li>
+                        <li><a href="<?php echo $this->Html->url('/builder/pages/settings'); ?>">Settings</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="<?php echo $this->Html->url('/'); ?>"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Go to App</a></li>
@@ -54,7 +53,7 @@
         <hr/>
         <div class="row" style="padding: 10px">
             <div class="col-sm-6 text-left"><small>&copy <?php echo date('Y'); ?> <?php echo Configure::read('builder.copyright_text'); ?></small></div>
-            <div class="col-sm-6 text-right"><small>powered by <strong>aobuilder</strong> in CakePHP</small></div>
+            <div class="col-sm-6 text-right"><small>powered by <strong>aoBuilder</strong> in CakePHP</small></div>
         </div>
     </div>
 </div>
