@@ -1,1 +1,1 @@
-# aoBuilder plugin for CakePHP app
+# aoBuilder plugin for CakePHP application
